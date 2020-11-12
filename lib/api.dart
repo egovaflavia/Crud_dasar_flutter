@@ -5,7 +5,7 @@ import 'package:kanvas/model/modelBarang.dart';
 
 class Api {
   Client client = Client();
-  final url = 'http://192.168.100.6/kanvas';
+  final url = 'http://192.168.1.8/kanvas';
 // api tampil data barang
   Future<List<ModelBarang>> fetchBarang() async {
     List<ModelBarang> listBarang = List();

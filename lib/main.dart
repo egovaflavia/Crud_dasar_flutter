@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kanvas/Home.dart';
+import 'package:kanvas/page/Home.dart';
 import 'package:kanvas/login.dart';
 import 'package:kanvas/page/myhome.dart';
 import 'package:kanvas/page/tambahbarang.dart';
@@ -24,7 +24,8 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       routes: _router,
-      initialRoute: MyHome.routename,
+      debugShowCheckedModeBanner: false,
+      initialRoute: Login.routename,
     );
   }
 }
